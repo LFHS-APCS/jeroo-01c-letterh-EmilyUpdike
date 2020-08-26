@@ -20,54 +20,7 @@ public class TestMain
     @Test
     public void testLetterH() {
        Main.runJerooCode();
-        Jeroo jeff = new Jeroo(0,0,EAST,20);
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.hop();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.hop();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  }
-
+     
        assertTrue("(1, 1)", Map.getInstance().isFlower(1,1));
        assertTrue("(2, 1)", Map.getInstance().isFlower(1,2));
        assertTrue("(3, 1)", Map.getInstance().isFlower(1,3));
