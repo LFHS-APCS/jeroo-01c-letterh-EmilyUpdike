@@ -36,6 +36,50 @@ public class TestMain
        assertTrue("(4, 4)", Map.getInstance().isFlower(4,4));
        assertTrue("(5, 4)", Map.getInstance().isFlower(4,5));
     }
-
-
+  Jeroo jeff = new Jeroo(0,0,EAST,20);
+  jeff.hop();
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.hop();
+  jeff.hop();
+  jeff.hop();
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.turn(LEFT);
+  jeff.turn(LEFT);
+  jeff.hop();
+  jeff.hop();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
+  jeff.plant();
+  jeff.hop();
 }
