@@ -4,7 +4,35 @@
  */
 public class Jeroo extends JerooBase {
     // Put any methods here
+public void turnRight(){
+  turn(LEFT);
+  turn(LEFT);
+  turn(LEFT);
+ }
 
+public void turnLeftTwice(){
+  turn(LEFT);
+  turn(LEFT);
+}
+
+public void hopX3(){
+  hop();
+  hop();
+  hop();
+}
+
+public void plantHopX2(){
+  plant();
+  hop();
+  plant();
+  hop();
+  
+}
+
+public void plantHopX4(){
+  plantHopX2();
+  plantHopX2();
+}
     
     // Do NOT touch the code below here
 
