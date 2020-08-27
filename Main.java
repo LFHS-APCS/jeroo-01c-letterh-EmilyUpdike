@@ -21,8 +21,7 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
        // Write code here to make a letter here
-       method main(){
-  Jeroo jeff = new Jeroo(0,0,EAST,100);
+    Jeroo jeff = new Jeroo(0,0,EAST,100);
   jeff.hop();
   jeff.turnRight();
   jeff.hop();
