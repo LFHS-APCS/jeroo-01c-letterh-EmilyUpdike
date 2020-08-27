@@ -21,52 +21,26 @@ public class Main implements Directions {
      */
     public static void runJerooCode() {
        // Write code here to make a letter here
-       Jeroo jeff = new Jeroo(0,0,EAST,100);
+       method main(){
+  Jeroo jeff = new Jeroo(0,0,EAST,100);
   jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
+  jeff.turnRight();
   jeff.hop();
+  jeff.plantHopX4();
   jeff.plant();
   jeff.hop();
+  jeff.turnLeftTwice();
+  jeff.hopX3();
+  jeff.turnRight();
+  jeff.hop();
+  jeff.plantHopX2();
+  jeff.turnRight();
+  jeff.plantHopX2();
   jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.hop();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.turn(LEFT);
-  jeff.turn(LEFT);
-  jeff.hop();
-  jeff.hop();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
-  jeff.plant();
-  jeff.hop();
+  jeff.turnLeftTwice();
+  jeff.hopX3();
+  jeff.plantHopX2();
+
     }
     
     
